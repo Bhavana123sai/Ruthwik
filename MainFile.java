@@ -17,7 +17,9 @@ class MainFile extends Sum{
     /* If I don't provide the implementation of these two methods, the
      * program will throw compilation error.
      */
-
+    public int sub(int a, int b){
+        return a-b;
+    }
 
     public static void main(String args[]){
         Sum obj = new MainFile();
