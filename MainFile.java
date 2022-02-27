@@ -17,18 +17,17 @@ class MainFile extends Sum{
     /* If I don't provide the implementation of these two methods, the
      * program will throw compilation error.
      */
-<<<<<<< HEAD
     public int add(int a, int b){
          return a+b;
     }
 
 
-=======
+
     public int sub(int a, int b){
         return a-b;
     }
 
->>>>>>> sub
+
     public static void main(String args[]){
         Sum obj = new MainFile();
         System.out.println(obj.add(3, 7));
