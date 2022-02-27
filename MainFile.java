@@ -18,6 +18,9 @@ class MainFile extends Sum{
      * program will throw compilation error.
      */
 
+    public int mul(int a, int b){
+        return a*b;
+    }
 
     public static void main(String args[]){
         Sum obj = new MainFile();
